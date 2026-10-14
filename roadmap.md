@@ -13,3 +13,4 @@
 - [ ] Publish + live AI check on published site: awaiting user's go-ahead to publish.
 - [ ] Optimize all site images and save optimized copies in the repository.
 - [ ] Create admin access for the user's chosen email; awaiting the email address and account setup.
+- [ ] Add email OTP sign-in for Super Admins; verify role-gated access.
