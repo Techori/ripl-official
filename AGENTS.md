@@ -15,3 +15,5 @@
 - Preserve original IDs when importing future user records; verified identity mapping must control access, never client-submitted roles.
 - Keep programme calculation rules in a browser-safe module with concrete unit tests so registration terms remain consistent.
 - Mount the funding promotion dialog once in the root shell with an explicit allowlist (home + public funding pages); registration links bypass it so applications remain accessible.
+- Keep the initial Super Admin bootstrap on the server, fixed to the explicitly approved email, and gated to the first Super Admin; never accept roles or passwords from the browser.
+- Store optimized site image bytes under `public/images` and make imported asset pointers resolve to those repository-local files when local media is explicitly required.
