@@ -12,5 +12,5 @@
 - [ ] Programme video: awaiting user-supplied video.
 - [ ] Publish + live AI check on published site: awaiting user's go-ahead to publish.
 - [ ] Optimize all site images and save optimized copies in the repository.
-- [ ] Create admin access for the user's chosen email; awaiting the email address and account setup.
-- [ ] Add email OTP sign-in for Super Admins; verify role-gated access.
+- [ ] Create first Super Admin for harsh@rishishwarindustry.in through a verified email OTP; test role-gated access.
+- [ ] Optimize all site images and save repository-local copies.

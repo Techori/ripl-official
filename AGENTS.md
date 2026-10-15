@@ -10,8 +10,10 @@
 <!-- LOVABLE:END -->
 
 - Preserve the target TanStack runtime configuration when importing source; source pages live in routes and reusable presentation in frontend.
-- Keep imported media as Lovable Assets pointers and generated media as bundled ES imports, so media remains available independently of the source project.
+- Keep imported media as Lovable Assets pointers unless the user explicitly requires repository-local image files; then use compressed local image imports without upscaling.
 - Scope Funding Programme design tokens and controls to its page to preserve other imported page designs.
 - Preserve original IDs when importing future user records; verified identity mapping must control access, never client-submitted roles.
 - Keep programme calculation rules in a browser-safe module with concrete unit tests so registration terms remain consistent.
 - Mount the funding promotion dialog once in the root shell with an explicit allowlist (home + public funding pages); registration links bypass it so applications remain accessible.
+- Keep the initial Super Admin bootstrap on the server, fixed to the explicitly approved email, and gated to the first Super Admin; never accept roles or passwords from the browser.
+- Store optimized site image bytes under `public/images` and make imported asset pointers resolve to those repository-local files when local media is explicitly required.
