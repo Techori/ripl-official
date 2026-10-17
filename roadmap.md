@@ -14,3 +14,5 @@
 - [ ] Optimize all site images and save optimized copies in the repository.
 - [ ] Create first Super Admin for harsh@rishishwarindustry.in through a verified email OTP; test role-gated access.
 - [ ] Optimize all site images and save repository-local copies.
+- [ ] Improve the chatbot: English-first language selection, consistent reply language, visitor name/phone intake, and enquiry delivery.
+- [ ] End-to-end verify Super Admin OTP sign-in, expiry, resend limits, and incorrect-code messaging.
